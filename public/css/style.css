@@ -1,0 +1,209 @@
+header {
+  background-image: url(../img/banner.jpg);
+  height: 650px;
+  filter: brightness(50%);
+}
+header .nav {
+  display: flex;
+  justify-content: space-between;
+}
+header .nav h1 {
+  color: white;
+  margin-left: 20px;
+}
+header .nav .link {
+  margin-right: 100px;
+  padding-top: 20px;
+}
+header .nav .link a {
+  text-decoration: none;
+  padding: 20px;
+  color: white;
+}
+header .contenu-header {
+  text-align: center;
+  margin-top: 150px;
+  justify-content: center;
+}
+header .contenu-header h1 {
+  color: white;
+  font-size: 50px;
+}
+header .contenu-header p {
+  color: white;
+  font-size: 25px;
+}
+header .contenu-header button {
+  margin-top: 10%;
+  border: none;
+  border-radius: 50px;
+  background-color: #f32853;
+  color: white;
+  height: 50px;
+  width: 200px;
+}
+
+.parentsection1 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.parentsection1 .parent {
+  display: flex;
+  text-align: center;
+  margin-top: 75px;
+}
+.parentsection1 .enfant1 {
+  width: 50%;
+}
+.parentsection1 .enfant2 {
+  width: 30%;
+  text-align: left;
+}
+
+.parentsection2 {
+  background-color: #f6f6f6;
+  margin-bottom: 50px;
+  height: 700px;
+}
+.parentsection2 h1, .parentsection2 h2 {
+  text-align: center;
+}
+.parentsection2 .parentcard {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+.parentsection2 .parentcard .card {
+  background-color: white;
+  width: 40%;
+  text-align: center;
+}
+.parentsection2 .btn {
+  display: flex;
+  justify-content: space-evenly;
+}
+.parentsection2 .btn .button1 {
+  margin-top: 10%;
+  border: none;
+  border-radius: 5px;
+  background-color: #f32853;
+  color: white;
+  height: 50px;
+  width: 200px;
+}
+.parentsection2 .btn .button2 {
+  margin-top: 10%;
+  border: none;
+  border-radius: 5px;
+  background-color: #323037;
+  color: white;
+  height: 50px;
+  width: 200px;
+}
+
+.parentsection3 {
+  width: 100%;
+}
+.parentsection3 h1, .parentsection3 p {
+  text-align: center;
+}
+.parentsection3 .bparentsection3 {
+  display: flex;
+  justify-content: space-around;
+}
+.parentsection3 .enfantsection3 {
+  display: flex;
+  width: 90%;
+  justify-content: center;
+  text-align: center;
+  margin-top: 75px;
+  align-items: center;
+}
+.parentsection3 .enfantsection3 .ptfls {
+  margin: 15px;
+}
+.parentsection3 .enfantsection3 .ptfls h2, .parentsection3 .enfantsection3 .ptfls p {
+  text-align: right;
+}
+.parentsection3 .enfantsection3 .ptfls img {
+  border: grey solid 3px;
+  border-radius: 360px;
+}
+.parentsection3 .enfantsection3 .ptfls .para2 h2, .parentsection3 .enfantsection3 .ptfls .para2 p {
+  text-align: left;
+}
+.parentsection3 .bparent2section3 {
+  display: flex;
+  justify-content: space-around;
+}
+.parentsection3 .enfantsection4 {
+  display: flex;
+  width: 75%;
+}
+
+.section4 {
+  background-image: url(../img/banner.jpg);
+  height: 300px;
+  filter: brightness(50%);
+}
+.section4 .contenu-section4 {
+  text-align: center;
+  margin-bottom: 50px;
+  justify-content: center;
+}
+.section4 .contenu-section4 h1 {
+  color: white;
+  font-size: 50px;
+}
+.section4 .contenu-section4 p {
+  color: white;
+  font-size: 25px;
+}
+.section4 .contenu-section4 button {
+  border: none;
+  border-radius: 50px;
+  background-color: #f32853;
+  color: white;
+  height: 50px;
+  width: 200px;
+}
+
+footer {
+  height: 300px;
+}
+footer .icon {
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  margin-top: 40px;
+}
+footer .icon .icn {
+  margin: 20px;
+}
+footer .p-ftr {
+  text-align: center;
+}
+
+@media screen and (max-width: 380px) {
+  .enfantsection3 {
+    display: flex;
+    flex-direction: column;
+  }
+  .parentsection2 {
+    height: 500px;
+  }
+  .parent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .parent .enfant1 {
+    text-align: center;
+  }
+  .parent .enfant2 {
+    text-align: center;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
